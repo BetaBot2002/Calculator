@@ -125,7 +125,7 @@
     <body>
       <div><h1>Calculator</h1></div><br>
       <fieldset class="f1">
-        <form  action="Calculator.php" method=POST>
+        <form  action="#" method=POST>
             <div >
                 <input class="ip1" name="Input1" type="number" placeholder="Enter no." value="<?php if (isset($_POST['Input1'])) {echo $_POST['Input1'];}?>">
             </div>
